@@ -1,0 +1,217 @@
+{
+    "Sensors": 
+    [
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "FirstSensor"},
+                    "SensorDescription": {"S": "Weather Measure"},
+                    "ImageFile": {"S": "/homework_3/static/SDEV400-hw.2(weather measure).png"},
+                    "SampleNumber": {"N": "1"},
+                    "Locations": {"SS": ["North Pole", "South Pole"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "SecondSensor"},
+                    "SampleNumber": {"N": "2"},
+                    "Locations": {"SS": ["South Pole", "North Pole"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "ThirdSensor"},
+                    "SensorDescription": {"S": "Weather Measure"},
+                    "ImageFile": {"S": "/homework_3/static/SDEV400-hw.2(weather measure).png"},
+                    "SampleNumber": {"N": "3"},
+                    "Locations": {"SS": ["North Pole", "South Pole"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "FourthSensor"},
+                    "SensorDescription": {"S": "Weather Measure"},
+                    "ImageFile": {"S": "/homework_3/static/SDEV400-hw.2(weather measure).png"},
+                    "SampleNumber": {"N": "4"},
+                    "Locations": {"SS": ["South Pole", "North Pole"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "FifthSensor"},
+                    "SensorDescription": {"S": "Weather Measure"},
+                    "ImageFile": {"S": "/homework_3/static/SDEV400-hw.2(weather measure).png"},
+                    "SampleNumber": {"N": "5"},
+                    "Additional": {"S": "Addtional Rquirement One"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "SixthSensor"},
+                    "ImageFile": {"S": "/homework_3/static/SDEV400-hw.2(measure weather).png"},
+                    "SampleNumber": {"N": "6"},
+                    "Locations": {"SS": ["South Pole", "North Pole"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "SeventhSensor"},
+                    "SensorDescription": {"S": "Measure Weather"},
+                    "ImageFile": {"S": "/homework_3/static/SDEV400-hw.2(measure weather).png"},
+                    "SampleNumber": {"N": "7"},
+                    "Locations": {"SS": ["North Pole", "South Pole"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "EighthSensor"},
+                    "SensorDescription": {"S": "Measure Weather"},
+                    "SampleNumber": {"N": "8"},
+                    "Locations": {"SS": ["South Pole", "North Pole"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "NinthSensor"},
+                    "ImageFile": {"S": "/homework_3/static/SDEV400-hw.2(measure weather).png"},
+                    "SampleNumber": {"N": "9"},
+                    "Locations": {"SS": ["North Pole", "South Pole"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "TenthSensor"},
+                    "SensorDescription": {"S": "Measure Weather"},
+                    "SampleNumber": {"N": "10"},
+                    "Locations": {"SS": ["South Pole", "North Pole"]},
+                    "Additional": {"S": "Addtional Rquirement Two"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "EleventhSensor"},
+                    "SensorDescription": {"S": "Sense Air"},
+                    "ImageFile": {"S": "/homework_3/static/SDEV400-hw.2(sense air).png"},
+                    "SampleNumber": {"N": "11"},
+                    "Locations": {"SS": ["East Side", "West Side"]},
+                    "AdditionalNumber": {"N": "420"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "TwelfthSensor"},
+                    "SensorDescription": {"S": "Sense Air"},
+                    "ImageFile": {"S": "/homework_3/static/SDEV400-hw.2(sense air).png"},
+                    "SampleNumber": {"N": "12"},
+                    "Locations": {"SS": ["West Side", "East Side"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "ThirteenthSensor"},
+                    "SensorDescription": {"S": "Sense Air"},
+                    "SampleNumber": {"N": "13"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "FourteenthSensor"},
+                    "SensorDescription": {"S": "Sense Air"},
+                    "ImageFile": {"S": "/homework_3/static/SDEV400-hw.2(sense air).png"},
+                    "SampleNumber": {"N": "14"},
+                    "Locations": {"SS": ["West Side", "East Side"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "FifteenthSensor"},
+                    "SensorDescription": {"S": "Sense Air"},
+                    "ImageFile": {"S": "/homework_3/static/SDEV400-hw.2(sense air).png"},
+                    "SampleNumber": {"N": "15"},
+                    "Locations": {"SS": ["East Side", "West Side"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "SixteenthSenthor"},
+                    "SensorDescription": {"S": "Air Sense"},
+                    "ImageFile": {"S": "/homework_3/static/SDEV400-hw.2(air sense).png"},
+                    "SampleNumber": {"N": "16"},
+                    "Locations": {"SS": ["West Side", "East Side"]},
+                    "Additional": {"S": "Addtional Rquirement Three"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "SeventeenthSensor"},
+                    "SensorDescription": {"S": "Air Sense"},
+                    "ImageFile": {"S": "/homework_3/static/SDEV400-hw.2(air sense).png"},
+                    "SampleNumber": {"N": "17"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "EightteenthSensor"},
+                    "SensorDescription": {"S": "Air Sense"},
+                    "ImageFile": {"S": "/homework_3/static/SDEV400-hw.2(air sense).png"},
+                    "SampleNumber": {"N": "18"},
+                    "Locations": {"SS": ["West Side", "East Side"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "NineteenthSensor"},
+                    "ImageFile": {"S": "/homework_3/static/SDEV400-hw.2(air sense).png"},
+                    "SampleNumber": {"N": "19"},
+                    "Locations": {"SS": ["East Side", "West Side"]}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Sensor": {"S": "TwentiethSensor"},
+                    "SampleNumber": {"N": "20"},
+                    "Locations": {"SS": ["West Side", "East Side"]},
+                    "AdditionalNumber": {"N": "1620"}
+                }
+            }
+        }
+    ]
+}
